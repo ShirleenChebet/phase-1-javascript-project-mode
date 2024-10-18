@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Health App</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://maps.googleapis.com/maps/api/js?callback=initMap&libraries=places" async defer></script>
+</head>
+<body>
+    <h1>SEXUAL AWARENESS AND INFO HUB</h1>
+    
+    <section id="mapSection">
+        <div id="map"></div>
+    </section>
+
+    <section id="loginSection">
+        <form id="loginForm">
+            <input type="text" id="username" placeholder="Enter your username" required />
+            <button type="submit">Login</button>
+        </form>
+        <p id="welcomeMsg"></p>
+    </section>
+
+    <!-- Image to replace API key -->
+    <div>
+        <img src="main.jpg" alt="API Key Image" style="width: 700px; height: auto;">
+    </div>
+
+    <section id="articleSection">
+        <h2>Health Articles</h2>
+        <div id="articles"></div>
+    </section>
+
+    <section id="qaSection">
+        <h2>Q&A Section</h2>
+        <form id="qaForm">
+            <input type="text" id="question" placeholder="Ask your health question" required />
+            <button type="submit">Submit Question</button>
+        </form>
+        <div id="qaList"></div>
+    </section>
+
+    <section id="symptomCheckerSection">
+        <h2>Symptom Checker</h2>
+        <form id="symptomCheckerForm">
+            <input type="text" id="symptoms" placeholder="Enter your symptoms" required />
+            <button type="submit">Check Symptoms</button>
+        </form>
+        <p id="symptomAdvice"></p>
+    </section>
+
+    <section id="feedbackSection">
+        <h2>Feedback</h2>
+        <form id="feedbackForm">
+            <textarea id="feedbackText" placeholder="Provide your feedback here" required></textarea>
+            <button type="submit">Submit Feedback</button>
+        </form>
+        <div id="feedbackList"></div>
+    </section>
+
+    <script src="index.js"></script>
+</body>
+</html>

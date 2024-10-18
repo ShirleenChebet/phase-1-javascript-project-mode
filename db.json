@@ -1,0 +1,61 @@
+{
+  "articles": [
+    {
+      "id": 1,
+      "title": "Understanding Sexual Health",
+      "content": "Sexual health is an important part of overall well-being."
+    },
+    {
+      "id": 2,
+      "title": "Common STIs",
+      "content": "The common STIs are gonorrhoea,HPV,chlamydia,syphilis and hepatisis B.."
+    },
+    {
+      "id": 3,
+      "title": "How to Talk About Sexual Health",
+      "content": "Talking openly about sexual health with partners and healthcare providers is key to staying safe and healthy."
+    },
+    {
+      "id": 4,
+      "title": "The Importance of Regular Checkups",
+      "content": "Regular checkups can help you stay on top of your sexual health and catch any issues early."
+    },
+    {
+      "id": 5,
+      "title": "Safe Practices for Sexual Health",
+      "content": "This article covers safe practices to prevent infections and maintain sexual health."
+    },
+    {
+      "id": 6,
+      "title": "General Prevention Tips",
+      "content": "1.Always use condoms or dental dams 2.Regular testing if one is sexually active 3.Have one sexual patner and practise monogamy if married"
+    }
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "question": "What are the early symptoms of an STI?",
+      "answer": "Early symptoms of STIs may include unusual discharge, burning during urination, or sores. Consult a doctor for accurate diagnosis."
+    },
+    {
+      "id": 2,
+      "question": "How often should I get tested for STIs?",
+      "answer": "It's recommended to get tested at least once a year, or more frequently if you have multiple partners."
+    },
+    {
+      "id": 3,
+      "question": "Can I get an STI even with protection?",
+      "answer": "While protection greatly reduces the risk, some STIs can still be transmitted through skin-to-skin contact."
+    },
+    {
+      "id": 4,
+      "question": "Are there any at-home STI tests available?",
+      "answer": "Yes, there are reliable at-home STI testing kits available for discreet testing."
+    },
+    {
+      "id": 5,
+      "question": "What should I do if I suspect I have an STI?",
+      "answer": "You should consult a healthcare provider for testing and treatment if you suspect you have an STI."
+    }
+  ]
+}
